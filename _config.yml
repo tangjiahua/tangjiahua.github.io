@@ -25,13 +25,13 @@ description: >-                        # used by seo meta and the atom feed
   The blog of a computer science student.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'https://tangjiahua.github.io'
+url: 'https://blog.tangjiahua.com'
 
 github:
   username: tangjiahua             # change to your github username
 
-# weibo:
-#  username: u/5027798748            # change to your twitter username
+twitter:
+  username: username            # change to your twitter username
 
 social:
   # Change to your full name.
