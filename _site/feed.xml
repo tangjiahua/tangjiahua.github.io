@@ -1,0 +1,239 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://tangjiahua.github.io/</id>
+  <title>Jiahua</title>
+  <subtitle>The blog of a computer science student.</subtitle>
+  <updated>2021-03-31T10:57:23+08:00</updated>
+  <author>
+    <name>Tang Jiahua</name>
+    <uri>https://tangjiahua.github.io/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="https://tangjiahua.github.io/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en-US"
+    href="https://tangjiahua.github.io/"/>
+  <generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator>
+  <rights> © 2021 Tang Jiahua </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>Welcome to Jekyll!</title>
+    <link href="https://tangjiahua.github.io/posts/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" />
+    <published>2021-03-31T10:44:03+08:00</published>
+  
+    <updated>2021-03-31T10:44:03+08:00</updated>
+  
+    <id>https://tangjiahua.github.io/posts/welcome-to-jekyll/</id>
+    <content src="https://tangjiahua.github.io/posts/welcome-to-jekyll/" />
+    <author>
+      <name>Tang Jiahua</name>
+    </author>
+
+  
+    
+    <category term="jekyll" />
+    
+    <category term="update" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.
+
+Jekyll requires blog post files to be named according to the following format:
+
+YEAR-MONTH-DAY-title.MAR...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>我的vim常用命令</title>
+    <link href="https://tangjiahua.github.io/posts/vim-command-for-me/" rel="alternate" type="text/html" title="我的vim常用命令" />
+    <published>2021-03-30T15:52:33+08:00</published>
+  
+    <updated>2021-03-30T15:52:33+08:00</updated>
+  
+    <id>https://tangjiahua.github.io/posts/vim-command-for-me/</id>
+    <content src="https://tangjiahua.github.io/posts/vim-command-for-me/" />
+    <author>
+      <name>Tang Jiahua</name>
+    </author>
+
+  
+    
+    <category term="基础技术" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      我的常用命令
+
+删除操作
+
+dw:删除从光标开始后面的字符
+daw:删除光标所在的词
+bdw:跳回光标所在该单词开头，然后删除
+dd:删除一行
+
+
+
+移动操作
+
+# 字符移动
+w:移动到下一个单词首
+b:移动到上一个单词首
+e:移动到下一个单词结尾
+ge:移动到上一个单词结尾
+^:移动到行首
+$:移动到行尾
+
+# 相对屏幕移动
+ctrl+f
+ctrl+b
+ctrl+e:按行下滚
+ctrl+y:按行上滚
+H:移动到屏幕首行
+L:到屏幕尾行
+M:到屏幕中间
+zt:置顶当前行
+zz:将当前行移动到屏幕中部
+zb:将当前行移动到底部
+
+
+
+
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>C++ Primer Plus 精华笔记</title>
+    <link href="https://tangjiahua.github.io/posts/C++-Primer-Plus-notes/" rel="alternate" type="text/html" title="C++ Primer Plus 精华笔记" />
+    <published>2021-03-30T15:52:33+08:00</published>
+  
+    <updated>2021-03-30T15:52:33+08:00</updated>
+  
+    <id>https://tangjiahua.github.io/posts/C++-Primer-Plus-notes/</id>
+    <content src="https://tangjiahua.github.io/posts/C++-Primer-Plus-notes/" />
+    <author>
+      <name>Tang Jiahua</name>
+    </author>
+
+  
+    
+    <category term="基础技术" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      第2章：开始学习C++
+
+让程序访问名称空间std的方法有如下4种：
+
+
+  using namespace std; 放在函数定义之前，让函数能够使用空间std的所有元素；
+  using namespace std;放在函数中；
+  在特定函数使用using std::cout；
+  完全不用using，而是直接std::cout；
+
+
+第4章：复合类型
+
+面向对象编程与传统的过程性编程的区别在于，OOP强调的是在运行阶段（而不是编译阶段）进行决策。
+
+在运行阶段做决策并非OOP独有的，但使用C++编写这样的代码比使用C语言简单。
+
+int *p1, p2;	// 对于每一个指针变量名，都需要一个星号。
+
+C++中，int*是一种复合类型，是指向int类型的指针。
+
+一定要在对指针应用解除引用运算符（*）之前，将指针初始化为一个确定的、适当的地址。
+
+int *pt;
+pt = ...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>你好，世界！</title>
+    <link href="https://tangjiahua.github.io/posts/hello-world/" rel="alternate" type="text/html" title="你好，世界！" />
+    <published>2021-03-30T10:34:33+08:00</published>
+  
+    <updated>2021-03-30T10:34:33+08:00</updated>
+  
+    <id>https://tangjiahua.github.io/posts/hello-world/</id>
+    <content src="https://tangjiahua.github.io/posts/hello-world/" />
+    <author>
+      <name>Tang Jiahua</name>
+    </author>
+
+  
+    
+    <category term="意识流随笔" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      大标题
+
+小标题
+
+三标题
+
+普通文本
+
+//代码片段
+int main(){
+  hello world;
+}
+
+
+
+
+    </summary>
+  
+
+  </entry>
+
+</feed>
+
+

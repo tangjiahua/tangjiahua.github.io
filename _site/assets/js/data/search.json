@@ -1,0 +1,64 @@
+[
+  
+  {
+    "title": "Welcome to Jekyll!",
+    "url": "/posts/welcome-to-jekyll/",
+    "categories": "jekyll, update",
+    "tags": "",
+    "date": "2021-03-31 10:44:03 +0800",
+    
+
+
+
+
+
+    "snippet": "You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.Jekyll..."
+  },
+  
+  {
+    "title": "我的vim常用命令",
+    "url": "/posts/vim-command-for-me/",
+    "categories": "基础技术",
+    "tags": "技术",
+    "date": "2021-03-30 15:52:33 +0800",
+    
+
+
+
+
+
+    "snippet": "我的常用命令删除操作dw:删除从光标开始后面的字符daw:删除光标所在的词bdw:跳回光标所在该单词开头，然后删除dd:删除一行移动操作# 字符移动w:移动到下一个单词首b:移动到上一个单词首e:移动到下一个单词结尾ge:移动到上一个单词结尾^:移动到行首$:移动到行尾# 相对屏幕移动ctrl+fctrl+bctrl+e:按行下滚ctrl+y:按行上滚H:移动到屏幕首行L:到屏幕尾行M:到屏幕中间zt:置顶当前行zz:将当前行移动到屏幕中部zb:将当前行移动到底部"
+  },
+  
+  {
+    "title": "C++ Primer Plus 精华笔记",
+    "url": "/posts/C++-Primer-Plus-notes/",
+    "categories": "基础技术",
+    "tags": "技术",
+    "date": "2021-03-30 15:52:33 +0800",
+    
+
+
+
+
+
+    "snippet": "第2章：开始学习C++让程序访问名称空间std的方法有如下4种：  using namespace std; 放在函数定义之前，让函数能够使用空间std的所有元素；  using namespace std;放在函数中；  在特定函数使用using std::cout；  完全不用using，而是直接std::cout；第4章：复合类型面向对象编程与传统的过程性编程的区别在于，OOP强调的是在运行阶段（而不是编译阶段）进行决策。在运行阶段做决策并非OOP独有的，但使用C++编写这样的代码比使用C语言简单。int *p1, p2;	// 对于每一个指针变量名，都需要一个星号。C++中，in..."
+  },
+  
+  {
+    "title": "你好，世界！",
+    "url": "/posts/hello-world/",
+    "categories": "意识流随笔",
+    "tags": "生活",
+    "date": "2021-03-30 10:34:33 +0800",
+    
+
+
+
+
+
+    "snippet": "大标题小标题三标题普通文本//代码片段int main(){  hello world;}"
+  }
+  
+]
+

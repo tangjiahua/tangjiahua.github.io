@@ -1,0 +1,61 @@
+I"s<h1 id="我的常用命令">我的常用命令</h1>
+
+<h2 id="删除操作">删除操作</h2>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td><td class="rouge-code"><pre>dw:删除从光标开始后面的字符
+daw:删除光标所在的词
+bdw:跳回光标所在该单词开头，然后删除
+<span class="nb">dd</span>:删除一行
+
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h2 id="移动操作">移动操作</h2>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+</pre></td><td class="rouge-code"><pre><span class="c"># 字符移动</span>
+w:移动到下一个单词首
+b:移动到上一个单词首
+e:移动到下一个单词结尾
+ge:移动到上一个单词结尾
+^:移动到行首
+<span class="nv">$:</span>移动到行尾
+
+<span class="c"># 相对屏幕移动</span>
+ctrl+f
+ctrl+b
+ctrl+e:按行下滚
+ctrl+y:按行上滚
+H:移动到屏幕首行
+L:到屏幕尾行
+M:到屏幕中间
+zt:置顶当前行
+zz:将当前行移动到屏幕中部
+zb:将当前行移动到底部
+
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+:ET
