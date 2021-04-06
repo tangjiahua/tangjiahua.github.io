@@ -13,7 +13,7 @@ math: false
 mermaid: true
 ---
 
-# 我的常用命令
+# Vim常用命令
 
 ## 删除操作
 
@@ -60,5 +60,21 @@ zb:将当前行移动到底部
 /xx可以查找某个单词xx，n查找下一个，N查找上一个。 在光标跳转之后，可以通过c-o返回上一个光标位置，c-i跳到下一个光标位置。
 
 ?xx可以反向查找，q/, q?可以列出查找历史。
+```
+
+# Terminal常用命令
+
+## 移动操作
+
+```shell
+在Mac系统中并没有Home、End等键，所以在使用时并不是特别的顺手，但是有几个键位组合可以使Terminal的操作更加灵活方便。
+
+将光标移动到行首：control + a
+将光标移动到行尾：control + e
+清除屏幕：control + l
+搜索以前使用命令：control + r
+清除当前行：control + u
+清除至当前行尾：control + k
+单词为单位移动：option + 方向键
 ```
 
