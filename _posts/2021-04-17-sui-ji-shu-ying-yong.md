@@ -10,8 +10,7 @@ toc: true
 comments: true
 Typora-root-url: ..
 math: false
-mermaid: true
-
+mermaid: true 
 ---
 
 # 基本介绍
