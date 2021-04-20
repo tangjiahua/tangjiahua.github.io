@@ -101,7 +101,7 @@ mermaid: true
 问题：如何取得0-1的随机浮点数？
 
 1. x = rand() / (float)RAND_MAX
-2. <img src="/assets/blog_res/2021-04-17-sui-ji-shu-ying-yong.assets/Screen%20Shot%202021-04-17%20at%2021.16.28.png" alt="Screen Shot 2021-04-17 at 21.16.28" style="zoom:67%;" align='left'/>
+2. <img src="/assets/blog_res/2021-04-17-sui-ji-shu-ying-yong.assets/Screen%20Shot%202021-04-17%20at%2021.16.28.png" alt="Screen Shot 2021-04-17 at 21.16.28" style="zoom:67%;"/>
 
 
 
@@ -112,15 +112,15 @@ mermaid: true
 获得正态分布：
 
 - 拒绝采样法：
-  - <img src="/assets/blog_res/2021-04-17-sui-ji-shu-ying-yong.assets/Screen%20Shot%202021-04-17%20at%2021.20.27.png" alt="Screen Shot 2021-04-17 at 21.20.27" style="zoom:50%;" align='left'/>
+  - <img src="/assets/blog_res/2021-04-17-sui-ji-shu-ying-yong.assets/Screen%20Shot%202021-04-17%20at%2021.20.27.png" alt="Screen Shot 2021-04-17 at 21.20.27" style="zoom:50%;" />
 - Ziggurat
-  - <img src="/assets/blog_res/2021-04-17-sui-ji-shu-ying-yong.assets/Screen%20Shot%202021-04-17%20at%2021.21.44.png" alt="Screen Shot 2021-04-17 at 21.21.44" style="zoom:60%;" align='left' />
+  - <img src="/assets/blog_res/2021-04-17-sui-ji-shu-ying-yong.assets/Screen%20Shot%202021-04-17%20at%2021.21.44.png" alt="Screen Shot 2021-04-17 at 21.21.44" style="zoom:60%;"  />
 - 利用正态分布CDF的反函数做Inverse transform sampling
-  - <img src="/assets/blog_res/2021-04-17-sui-ji-shu-ying-yong.assets/Screen%20Shot%202021-04-17%20at%2021.24.13.png" alt="Screen Shot 2021-04-17 at 21.24.13" style="zoom:67%;" align='left'/>
+  - <img src="/assets/blog_res/2021-04-17-sui-ji-shu-ying-yong.assets/Screen%20Shot%202021-04-17%20at%2021.24.13.png" alt="Screen Shot 2021-04-17 at 21.24.13" style="zoom:67%;" />
 - Box-Muller Transform
-  - <img src="/assets/blog_res/2021-04-17-sui-ji-shu-ying-yong.assets/Screen%20Shot%202021-04-17%20at%2021.24.50.png" alt="Screen Shot 2021-04-17 at 21.24.50" style="zoom:67%;" align='left' />
+  - <img src="/assets/blog_res/2021-04-17-sui-ji-shu-ying-yong.assets/Screen%20Shot%202021-04-17%20at%2021.24.50.png" alt="Screen Shot 2021-04-17 at 21.24.50" style="zoom:67%;"  />
 - 利用中心极限定理，把m个均匀分布随机数相加
-  - <img src="/assets/blog_res/2021-04-17-sui-ji-shu-ying-yong.assets/Screen%20Shot%202021-04-17%20at%2021.25.08.png" alt="Screen Shot 2021-04-17 at 21.25.08" style="zoom:67%;" align='left'/>
+  - <img src="/assets/blog_res/2021-04-17-sui-ji-shu-ying-yong.assets/Screen%20Shot%202021-04-17%20at%2021.25.08.png" alt="Screen Shot 2021-04-17 at 21.25.08" style="zoom:67%;" />
 
 ## 小游戏
 
@@ -128,7 +128,7 @@ mermaid: true
 
 在某个X形区域内产生多少个怪物的问题：
 
-<img src="/assets/blog_res/2021-04-17-sui-ji-shu-ying-yong.assets/Screen%20Shot%202021-04-17%20at%2021.28.44.png" alt="Screen Shot 2021-04-17 at 21.28.44" style="zoom:60%;" align='left'/>
+<img src="/assets/blog_res/2021-04-17-sui-ji-shu-ying-yong.assets/Screen%20Shot%202021-04-17%20at%2021.28.44.png" alt="Screen Shot 2021-04-17 at 21.28.44" style="zoom:60%;"/>
 
 ## 洗牌算法
 

@@ -55,7 +55,7 @@ mermaid: true
   - 描述能力强
   - 服务器随机访问性能较高
   - 数据结构简单，代码可维护性强
-  - <img src="/assets/blog_res/2021-04-18-fu-wu-qi-di-xing.assets/Screen%20Shot%202021-04-18%20at%2002.11.45.png" alt="Screen Shot 2021-04-18 at 02.11.45" style="zoom:35%;" align='left'/>
+  - <img src="/assets/blog_res/2021-04-18-fu-wu-qi-di-xing.assets/Screen%20Shot%202021-04-18%20at%2002.11.45.png" alt="Screen Shot 2021-04-18 at 02.11.45" style="zoom:35%;"/>
 
 **服务器端地形管理的常见实现：**
 

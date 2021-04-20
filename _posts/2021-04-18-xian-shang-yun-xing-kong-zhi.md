@@ -82,11 +82,11 @@ ps：除了流程日志，其他短期日志会在格式化后，存入数据仓
 
 **例子：网络故障**
 
-<img src="/assets/blog_res/2021-04-18-xian-shang-yun-xing-kong-zhi.assets/Screen%20Shot%202021-04-20%20at%2022.09.08.png" alt="Screen Shot 2021-04-20 at 22.09.08" style="zoom:50%;" align='left'/>
+<img src="/assets/blog_res/2021-04-18-xian-shang-yun-xing-kong-zhi.assets/Screen%20Shot%202021-04-20%20at%2022.09.08.png" alt="Screen Shot 2021-04-20 at 22.09.08" style="zoom:50%;"/>
 
 **例子：机房故障**
 
-<img src="/assets/blog_res/2021-04-18-xian-shang-yun-xing-kong-zhi.assets/Screen%20Shot%202021-04-20%20at%2022.10.00.png" alt="Screen Shot 2021-04-20 at 22.10.00" style="zoom:50%;" align='left'/>
+<img src="/assets/blog_res/2021-04-18-xian-shang-yun-xing-kong-zhi.assets/Screen%20Shot%202021-04-20%20at%2022.10.00.png" alt="Screen Shot 2021-04-20 at 22.10.00" style="zoom:50%;"/>
 
 # 控制
 
