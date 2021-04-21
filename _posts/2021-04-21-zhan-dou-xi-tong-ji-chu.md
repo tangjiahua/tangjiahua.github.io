@@ -47,12 +47,65 @@ mermaid: true
 
 ## 战斗框架子系统
 
+### buff系统
 
+- 依附于实体数据上持续一段时间的可交互对象
+  - 数据
+  - 逻辑
+  - 相关实体
+    - event_source, event_target, deco_source
+  - 交互点
+    - SkillOut
+    - SkillIn
 
-## 简单实现实例
+Buff是挂在在player身上的，也就是每个player对象身上是有个链表挂着Buff的数据。
+
+![Screen Shot 2021-04-21 at 15.51.23](/assets/blog_res/2021-04-21-zhan-dou-xi-tong-ji-chu.assets/Screen%20Shot%202021-04-21%20at%2015.51.23.png)
+
+#### 简单实现实例
+
+**魔法盾的实现：**
+
+- 玩家给自身上一个魔法盾的buff，在buff持续期间，任何HP上海都会被转换成MP上海
+- 实现方式：在Skillin阶段，将所有的HP伤害Effect转换为MP伤害Effect
+- Buff：就是target身上的一块数据，其中有个skill_in阶段，挂一个函数（从资源文件加载），把伤害type从hp改为mp
+
+**Cooperator和目标扫描：**
+
+![Screen Shot 2021-04-21 at 15.54.50](/assets/blog_res/2021-04-21-zhan-dou-xi-tong-ji-chu.assets/Screen%20Shot%202021-04-21%20at%2015.54.50.png)
+
+目标扫描：通过对玩家所在区域附近的玩家进行筛选，选择附近的玩家。
+
+技能发动：由于目标扫描+buff遍历，因此每一次释放aoe技能都会导致O(n^2)的复杂度。
+
+### 修饰系统
+
+<img src="/assets/blog_res/2021-04-21-zhan-dou-xi-tong-ji-chu.assets/Screen%20Shot%202021-04-21%20at%2016.31.15.png" alt="Screen Shot 2021-04-21 at 16.31.15" style="zoom:67%;" />
 
 # 逻辑内容
 
 ## 基本实现方式
 
+- 可编译代码（服务器程序员）：C/C++
+- 可配置脚本资源文件（策划）：Lua，expression
+
 ## 逻辑内容方案选择
+
+- 第三方脚本语言：如Lua
+  - 初次开发工作量较少
+  - 后续运行时操作复杂度高
+- C语言自己实现：expression
+  - 需要开发一套脚本执行管理系统
+  - 后续运行时操作复杂度较低（动态修改执行内容以及性能优化）
+
+**Expression配置实例：**
+
+![Screen Shot 2021-04-21 at 16.34.40](/assets/blog_res/2021-04-21-zhan-dou-xi-tong-ji-chu.assets/Screen%20Shot%202021-04-21%20at%2016.34.40.png)
+
+动态执行配置文件里面的脚本代码
+
+
+
+附录：战斗系统在整体架构中的位置：
+
+![Screen Shot 2021-04-21 at 16.35.12](/assets/blog_res/2021-04-21-zhan-dou-xi-tong-ji-chu.assets/Screen%20Shot%202021-04-21%20at%2016.35.12.png)
