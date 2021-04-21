@@ -61,7 +61,7 @@ mermaid: true
 
 ![Screen Shot 2021-04-20 at 23.52.30](/assets/blog_res/2021-04-20-yi-dong-he-shi-ye-guan-li.assets/Screen%20Shot%202021-04-20%20at%2023.52.30.png)
 
-补充：大部分时候确定移动对象在空间的位置也用不到z，只要有layer就可以了。
+补充：大部分时候确定移动对象在空间的位置也用不到z，只要有layer就可以了。因为天刀中有轻功，所以在确定位置的时候也用到了z这个量。
 
 **以天刀为例子介绍：**
 
@@ -75,13 +75,35 @@ mermaid: true
 
 ## 为什么需要视野管理
 
+![Screen Shot 2021-04-21 at 10.49.14](/assets/blog_res/2021-04-20-yi-dong-he-shi-ye-guan-li.assets/Screen%20Shot%202021-04-21%20at%2010.49.14.png)
+
+剪枝：也就是发送技能之后只选择会受到技能影响的附近的几个玩家来进行影响。
+
 ## 视野管理的经典实现-九宫格
+
+这个九宫格和grid格子不一样，grid的粒度太小了，没有意义。
+
+![Screen Shot 2021-04-21 at 10.50.46](/assets/blog_res/2021-04-20-yi-dong-he-shi-ye-guan-li.assets/Screen%20Shot%202021-04-21%20at%2010.50.46.png)
 
 ## 九宫格种角色移动的处理
 
+![Screen Shot 2021-04-21 at 10.51.11](/assets/blog_res/2021-04-20-yi-dong-he-shi-ye-guan-li.assets/Screen%20Shot%202021-04-21%20at%2010.51.11.png)
+
+发送消息给第三方，比如actor_leave()这样的包过去，表示有人离开“我”的视野。
+
 ## Around的经典实现-十字链表
+
+![Screen Shot 2021-04-21 at 10.52.24](/assets/blog_res/2021-04-20-yi-dong-he-shi-ye-guan-li.assets/Screen%20Shot%202021-04-21%20at%2010.52.24.png)
+
+需要两个排序，一是按X排序所有玩家的一条链表，二是按Y排序所有玩家的一条链表。
 
 ## 十字链表角色移动的处理
 
+![Screen Shot 2021-04-21 at 10.53.49](/assets/blog_res/2021-04-20-yi-dong-he-shi-ye-guan-li.assets/Screen%20Shot%202021-04-21%20at%2010.53.49.png)
+
+old_set和new_set的计算简单在于，链表可以直接向前和向后回溯很快能找到在集合内的玩家。找出两个链表中的玩家，然后取交集就是一个我们需要的set。
+
 ## 两种方式的比较
+
+<img src="/assets/blog_res/2021-04-20-yi-dong-he-shi-ye-guan-li.assets/Screen%20Shot%202021-04-21%20at%2010.55.45.png" alt="Screen Shot 2021-04-21 at 10.55.45" style="zoom: 67%;" />
 
