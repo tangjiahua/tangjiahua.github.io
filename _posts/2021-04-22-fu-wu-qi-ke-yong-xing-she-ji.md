@@ -41,11 +41,11 @@ mermaid: true
 
 ## 典型错误类型和影响范围
 
-<img src="/assets/blog_res/.assets/Screen%20Shot%202021-04-22%20at%2015.32.02.png" alt="Screen Shot 2021-04-22 at 15.32.02" style="zoom: 50%;" />
+![Screen Shot 2021-04-22 at 16.06.31](/assets/blog_res/2021-04-22-fu-wu-qi-ke-yong-xing-she-ji.assets/Screen%20Shot%202021-04-22%20at%2016.06.31.png)
 
 # 第二章：容灾容错分级
 
-<img src="/assets/blog_res/.assets/Screen%20Shot%202021-04-22%20at%2015.32.55.png" alt="Screen Shot 2021-04-22 at 15.32.55" style="zoom:50%;" />
+![Screen Shot 2021-04-22 at 16.06.11](/assets/blog_res/2021-04-22-fu-wu-qi-ke-yong-xing-she-ji.assets/Screen%20Shot%202021-04-22%20at%2016.06.11.png)
 
 ## 进程容错
 
