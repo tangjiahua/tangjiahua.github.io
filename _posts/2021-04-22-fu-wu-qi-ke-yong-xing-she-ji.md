@@ -23,7 +23,7 @@ mermaid: true
 
 **可用性的度量：**
 
-![Screen Shot 2021-04-22 at 15.28.59](/assets/blog_res/.assets/Screen%20Shot%202021-04-22%20at%2015.28.59.png)
+![Screen Shot 2021-04-22 at 15.28.59](../assets/blog_res/2021-04-22-fu-wu-qi-ke-yong-xing-she-ji.assets/Screen%20Shot%202021-04-22%20at%2015.28.59.png)
 
 ## 可用性级别
 
@@ -41,11 +41,11 @@ mermaid: true
 
 ## 典型错误类型和影响范围
 
-<img src="/assets/blog_res/.assets/Screen%20Shot%202021-04-22%20at%2015.32.02.png" alt="Screen Shot 2021-04-22 at 15.32.02" style="zoom: 50%;" />
+<img src="../assets/blog_res/.assets/Screen%20Shot%202021-04-22%20at%2015.32.02.png" alt="Screen Shot 2021-04-22 at 15.32.02" style="zoom: 50%;" />
 
 # 第二章：容灾容错分级
 
-<img src="/assets/blog_res/.assets/Screen%20Shot%202021-04-22%20at%2015.32.55.png" alt="Screen Shot 2021-04-22 at 15.32.55" style="zoom:50%;" />
+<img src="../assets/blog_res/.assets/Screen%20Shot%202021-04-22%20at%2015.32.55.png" alt="Screen Shot 2021-04-22 at 15.32.55" style="zoom:50%;" />
 
 ## 进程容错
 
@@ -55,7 +55,7 @@ mermaid: true
 
 **错误隔离系统的设计：**
 
-![Screen Shot 2021-04-22 at 15.34.34](/assets/blog_res/.assets/Screen%20Shot%202021-04-22%20at%2015.34.34.png)
+![Screen Shot 2021-04-22 at 15.34.34](../assets/blog_res/2021-04-22-fu-wu-qi-ke-yong-xing-she-ji.assets/Screen%20Shot%202021-04-22%20at%2015.34.34.png)
 
 ## 进程容灾
 
@@ -67,7 +67,7 @@ mermaid: true
 
 **一种朴素的状态维护方式**
 
-![Screen Shot 2021-04-22 at 15.36.54](/assets/blog_res/.assets/Screen%20Shot%202021-04-22%20at%2015.36.54.png)
+![Screen Shot 2021-04-22 at 15.36.54](../assets/blog_res/2021-04-22-fu-wu-qi-ke-yong-xing-she-ji.assets/Screen%20Shot%202021-04-22%20at%2015.36.54.png)
 
 不适合强交互类游戏，IO过多
 
@@ -91,7 +91,7 @@ mermaid: true
 
 **针对单点问题的应对策略：**
 
-![Screen Shot 2021-04-22 at 15.41.04](/assets/blog_res/.assets/Screen%20Shot%202021-04-22%20at%2015.41.04.png)
+![Screen Shot 2021-04-22 at 15.41.04](../assets/blog_res/2021-04-22-fu-wu-qi-ke-yong-xing-she-ji.assets/Screen%20Shot%202021-04-22%20at%2015.41.04.png)
 
 1. 冗余部署：增加链路、增加备份节点，适用无状态或者弱状态进程
 
@@ -99,15 +99,15 @@ mermaid: true
 
 ### 主从数据同步：逻辑同构
 
-![Screen Shot 2021-04-22 at 15.43.15](/assets/blog_res/.assets/Screen%20Shot%202021-04-22%20at%2015.43.15.png)
+![Screen Shot 2021-04-22 at 15.43.15](../assets/blog_res/2021-04-22-fu-wu-qi-ke-yong-xing-she-ji.assets/Screen%20Shot%202021-04-22%20at%2015.43.15.png)
 
 ### 主从数据同步：版本号机制
 
-![Screen Shot 2021-04-22 at 15.43.49](/assets/blog_res/.assets/Screen%20Shot%202021-04-22%20at%2015.43.49.png)
+![Screen Shot 2021-04-22 at 15.43.49](../assets/blog_res/2021-04-22-fu-wu-qi-ke-yong-xing-she-ji.assets/Screen%20Shot%202021-04-22%20at%2015.43.49.png)
 
 ### 主从数据同步：定时快照
 
-![Screen Shot 2021-04-22 at 15.44.38](/assets/blog_res/.assets/Screen%20Shot%202021-04-22%20at%2015.44.38.png)
+![Screen Shot 2021-04-22 at 15.44.38](../assets/blog_res/2021-04-22-fu-wu-qi-ke-yong-xing-she-ji.assets/Screen%20Shot%202021-04-22%20at%2015.44.38.png)
 
 ## 数据容灾
 
@@ -118,16 +118,16 @@ mermaid: true
 3. 系统状态
 4. 进程日志
 
-![Screen Shot 2021-04-22 at 15.46.01](/assets/blog_res/.assets/Screen%20Shot%202021-04-22%20at%2015.46.01.png)
+![Screen Shot 2021-04-22 at 15.46.01](../assets/blog_res/2021-04-22-fu-wu-qi-ke-yong-xing-she-ji.assets/Screen%20Shot%202021-04-22%20at%2015.46.01.png)
 
 总结：
 
-![Screen Shot 2021-04-22 at 15.46.27](/assets/blog_res/.assets/Screen%20Shot%202021-04-22%20at%2015.46.27.png)
+![Screen Shot 2021-04-22 at 15.46.27](../assets/blog_res/2021-04-22-fu-wu-qi-ke-yong-xing-she-ji.assets/Screen%20Shot%202021-04-22%20at%2015.46.27.png)
 
 在线热备：
 
-![Screen Shot 2021-04-22 at 15.46.41](/assets/blog_res/.assets/Screen%20Shot%202021-04-22%20at%2015.46.41.png)
+![Screen Shot 2021-04-22 at 15.46.41](../assets/blog_res/2021-04-22-fu-wu-qi-ke-yong-xing-she-ji.assets/Screen%20Shot%202021-04-22%20at%2015.46.41.png)
 
 定时备份+流水
 
-![Screen Shot 2021-04-22 at 15.47.05](/assets/blog_res/.assets/Screen%20Shot%202021-04-22%20at%2015.47.05.png)
+![Screen Shot 2021-04-22 at 15.47.05](../assets/blog_res/2021-04-22-fu-wu-qi-ke-yong-xing-she-ji.assets/Screen%20Shot%202021-04-22%20at%2015.47.05.png)
