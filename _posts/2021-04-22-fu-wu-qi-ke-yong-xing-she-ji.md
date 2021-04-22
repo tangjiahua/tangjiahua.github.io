@@ -43,7 +43,7 @@ mermaid: true
 
 ![Screen Shot 2021-04-22 at 16.06.31](/assets/blog_res/2021-04-22-fu-wu-qi-ke-yong-xing-she-ji.assets/Screen%20Shot%202021-04-22%20at%2016.06.31.png)
 
-# 第二章：容灾容错分级
+# 第二章：容灾容错分级 
 
 ![Screen Shot 2021-04-22 at 16.06.11](/assets/blog_res/2021-04-22-fu-wu-qi-ke-yong-xing-she-ji.assets/Screen%20Shot%202021-04-22%20at%2016.06.11.png)
 
