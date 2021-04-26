@@ -14,4 +14,13 @@ mermaid: true
 
 ---
 
-# 设计标准
+# 参考资料
+
+[天涯明月刀后台技术创新](https://gameinstitute.qq.com/course/detail/10055)
+
+[龙之谷服务器设计](https://gameinstitute.qq.com/course/detail/10053)
+
+[射击游戏的物理引擎应用和移动模拟](https://gameinstitute.qq.com/course/detail/10196)
+
+[腾讯游戏学院技术类课程后台设计](https://blog.tangjiahua.com/categories/腾讯游戏学院/)
+
