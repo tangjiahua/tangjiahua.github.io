@@ -35,6 +35,8 @@ tmux rename-session -t 0 <name>	//	重命名会话
 Ctrl+b d //	分离当前会话detach
 Ctrl+b s	//	列出所有会话并切换
 Ctrl+b $	//	重命名当前会话
+Ctrl+b :kill-session	// kill session
+
 
 // 关于窗口
 Ctrl+b c：创建一个新窗口，状态栏会显示多个窗口的信息。
