@@ -1,5 +1,5 @@
 ---
-title: 《Tmux命令》
+title: Tmux & iTerm2
 date: 2021-05-25 00:11:00 +0800
 categories: [Unix网络编程]
 tags: [技术]
@@ -11,9 +11,18 @@ comments: true
 Typora-root-url: ..
 math: false
 mermaid: true
-
-
 ---
+
+# iTerm2
+
+- 切换 tab：⌘+←, ⌘+→, ⌘+{, ⌘+}。⌘+数字直接定位到该 tab；
+- 新建 tab：⌘+t；
+- 切分屏幕：⌘+d 水平切分，⌘+Shift+d 垂直切分；
+- 智能查找，支持正则查找：⌘+f。
+- 列出曾经使用过的命令：⌘+;
+- 使用历史记录：⌘+Shift+h
+
+# Tmux
 
 ```shell
 tmux new -s <name>	// 新建会话
