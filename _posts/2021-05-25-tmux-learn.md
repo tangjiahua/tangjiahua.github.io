@@ -13,6 +13,17 @@ math: false
 mermaid: true
 ---
 
+# iTerm2 + Tmux结合的操作方法
+
+创建新的Window：tmux ls && read session && tmux -CC attach -t ${session:-default} \
+|| tmux -CC new -s ${session:-default}
+
+tmux -CC 后面跟上的命令都和一般的tmux相同
+
+Command+Shift+W可以直接快速detach当前的session
+
+(Command+Control+A是快捷键，一般设置为快速打开一个新的Session窗口)
+
 # iTerm2
 
 - 切换 tab：⌘+←, ⌘+→, ⌘+{, ⌘+}。⌘+数字直接定位到该 tab；
