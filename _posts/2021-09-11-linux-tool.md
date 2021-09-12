@@ -43,7 +43,7 @@ mermaid: true
 - &&：前面成功，则执行后面，否则不执行
 - ||：前面失败，后面一条也执行
 
-<img src="../../../UGit/opensource/tangjiahua.github.io/assets/blog_res/2021-09-11-linux-tool.assets/image-20210911212852411.png" alt="image-20210911212852411" style="zoom: 50%;" />
+![image-20210912003525237](2021-09-11-linux-tool.assets/image-20210912003525237.png)
 
 - \>和>>：重定向文件，\>会覆盖目标的原有内容。 当文件存在时会先删除原文件，再重新创建文件，然后把内容写入该文件；否则直接创建文件。>> 会在目标原有内容后追加内容。
 
@@ -56,9 +56,9 @@ mermaid: true
     Ctl-R   匹配最相近的一个文件，然后输出
     ```
 
-    
+    ![image-20210912003549083](2021-09-11-linux-tool.assets/image-20210912003549083.png)
 
-    <img src="../../../UGit/opensource/tangjiahua.github.io/assets/blog_res/2021-09-11-linux-tool.assets/image-20210911213350124.png" alt="image-20210911213350124" style="zoom: 67%;" />
+    
 
 ## 文本处理
 
