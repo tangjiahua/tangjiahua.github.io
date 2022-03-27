@@ -15,10 +15,10 @@ timezone: Asia/Shanghai
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # --------------------------
-title: Jiahua                          # the main title
+title: Tom                          # the main title
 
 tagline:    # it will display as the sub-title
-  Graduate from Beijing Institute of Technology, BSc in Computer Science.
+  BSc in Computer Science.
   Now work at Tencent(Shenzhen) IEG Timi Studio.
 
 description: >-                        # used by seo meta and the atom feed
@@ -36,7 +36,7 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Tang Jiahua
+  name: Tom
   email: tangjiahuabit@qq.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
